@@ -103,25 +103,20 @@
         <p>Redimensione a janela do navegador para ver o menu mudar.</p>
     </div>
     <a href="" style="text-decoration: nonr; color: red;">Qualquer coisa</a>
-
+      
+    
     <script>
-        alert("Anjos sem paciencia!!!")
+       //SELECIONA OS ELEMENTOS DE HTML
+       const hamburguerbtn = document.getElementById('hamburguer-btn')
+       const navLinks = document.getElementById('nav-Links')
+
+       //ADICIONAR UM EVENTO AO BOTÃO CLIK
+
+       hamburguerbtn.addEventListener('click',() => {
+         navLinks.classList.toggle('active');
+       } )
+       
     </script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 </body>
